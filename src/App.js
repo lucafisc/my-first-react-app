@@ -1,18 +1,8 @@
 import "./App.css";
-import Info from "./modules/Info";
-import About from "./modules/About";
-import Interests from "./modules/Interests";
-import Footer from "./modules/Footer";
+import Content from "./modules/Content";
 
 function App() {
-  return (
-    <>
-      <Info />
-      <About />
-      <Interests />
-      <Footer />
-    </>
-  );
+  return <Content />;
 }
 
 export default App;
