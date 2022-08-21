@@ -28,6 +28,24 @@
     height: 317px;
     aspect-ratio: 1;
     overflow-y: hidden;
+    position: relative;
+}
+
+.credits {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #DCDCDC;
+}
+
+.credits>a {
+    color: #DCDCDC;
+    ;
 }
 
 .avatar>img {
@@ -138,7 +156,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
-    line-height: 150%;
     color: #DCDCDC;
 }
 
