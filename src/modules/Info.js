@@ -1,7 +1,11 @@
+import ProfilePicture from "./ProfilePicture";
+import Profile from "./Profile";
+
 function Info() {
   return (
     <>
-      <h1>Info</h1>
+      <ProfilePicture />
+      <Profile />
     </>
   );
 }
