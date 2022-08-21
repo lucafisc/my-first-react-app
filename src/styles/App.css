@@ -64,3 +64,54 @@
     text-align: center;
     color: #F5F5F5;
 }
+
+.contact {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.email-btn,
+.linkedin-btn {
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.email-btn:active,
+.linkedin-btn:active {
+    box-shadow: inset 0px 0px 15px -4px #000000;
+}
+
+.email-btn {
+    background: #FFFFFF;
+}
+
+.linkedin-btn {
+    background: #5093E2;
+}
+
+.email-btn>img,
+.linkedin-btn>img {
+    width: 16px;
+}
+
+.email-btn>h2,
+.linkedin-btn>h2 {
+    color: #374151;
+    padding-left: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.linkedin-btn>h2 {
+    color: #FFFFFF;
+}
