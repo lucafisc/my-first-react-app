@@ -1,7 +1,13 @@
 function Interests() {
   return (
     <>
-      <h1>Interests</h1>
+      <div className="text-container">
+        <h1>Interests</h1>
+        <p>
+          Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+          Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        </p>
+      </div>
     </>
   );
 }
